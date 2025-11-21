@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enrollment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Enrollment Page</h1>
+    <p>Welcome! Please fill in your details below to enroll.</p>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="">-- Select a Course --</option>
+            <option value="Internationally Accredited Diploma in Yoga Training">Internationally Accredited Diploma in Yoga Training</option>
+            <option value="Sounds True Presents - The Yoga of Awakening">Sounds True Presents - The Yoga of Awakening</option>
+            <option value="Yoga Exercises for Core Strength and Flexibility - Revised">Yoga Exercises for Core Strength and Flexibility - Revised</option>
+            <option value="Yoga Medicines Guide to Therapeutic Yoga">Yoga Medicines Guide to Therapeutic Yoga</option>
+            <option value="Yoga Medicines Guide to Therapeutic Yoga">Yoga Medicines Guide to Therapeutic Yoga</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <button onclick="window.location.href='index.html'">Back to Home</button>
+    <h2>Select a Course</h2>
+
+<div class="course-container">
+
+    <div class="course-card" onclick="document.getElementById('course').value='ICT Skills 2025'">
+        <img src="aaa.jpg" width="600" height="500">
+        <h3>ICT Skills 2025</h3>
+    </div>
+
+    <div class="course-card" onclick="document.getElementById('course').value='Python Programming'">
+        <img src="ccc.jpg" width="600" height="500">
+        <h3>Python Programming</h3>
+    </div>
+
+    <div class="course-card" onclick="document.getElementById('course').value='Build Simple Web Pages'">
+        <img src="bbb.jpg" width="600" height="500">
+        <h3>Build Simple Web Pages</h3>
+    </div>
+    <a href="courses.html">Learn Our Courses</a>
+     <link rel="stylesheet" href="../style.css">
+
+</div>
+</body>
+</html>
